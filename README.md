@@ -45,3 +45,8 @@ gdbgui -r /vagrant/flag_checker
 ``` bash
 open -a firefox -g http://localhost:5050
 ```
+
+
+## Errors
+duplicated machines running looks like this:
+[![asciicast](https://asciinema.org/a/V2jsxKvA3B2hGXPIXC7AfEvZF.svg)](https://asciinema.org/a/V2jsxKvA3B2hGXPIXC7AfEvZF)
