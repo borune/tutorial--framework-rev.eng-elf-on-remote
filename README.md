@@ -4,7 +4,19 @@ And lastly connect a browser on the host (MacOs) to the GDBGUI on the remote (Ub
 
 ## host:
 
-download installation from: https://www.vagrantup.com/
+download installation from: https://www.vagrantup.com/ and follow the instructions.
+
+Or:
+
+``` bash
+curl -O https://releases.hashicorp.com/vagrant/2.2.7/vagrant_2.2.7_x86_64.dmg
+sudo hdiutil attach vagrant_2.2.7_x86_64.dmg
+sudo installer -package /Volumes/vagrant_2.2.7_x86_64/vagrant_2.2.7_x86_64.pkg -target /
+sudo hdiutil detach /Volumes/vagrant_2.2.7_x86_64
+rm vagrant_2.2.7_x86_64.dmg
+```
+
+Make your image in a folder.
 
 ``` bash
 mkdir your_dir_name
