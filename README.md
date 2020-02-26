@@ -12,8 +12,8 @@ cd your_dir_name
 vagrant init hashicorp/bionic64
 ```
 
-- add several lines to the Vagrant file and
-- place your ELF file in the same dir
+- Overwrite Vagrant file with the one in this repo
+- Place your ELF file in the same dir
 
 ``` bash
 vagrant up
