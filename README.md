@@ -1,6 +1,6 @@
-# How to setup the framework for reverse engineering an ELF executable from a MacOs
-We will use `vagrant` to set up a virtual mashine running Ubuntu. Then use GDB to explore the program dynamicly.
-And lastly connnect a browser on the host (MacOs) to the GDBGUI on the remote (Ubuntu), for a more plesant GDB experience.
+# How to setup a framework for reverse engineering an ELF executable from a macOS
+We will use `vagrant` to set up a virtual machine running Ubuntu. Then use GDB to explore the program dynamicly.
+And lastly connect a browser on the host (MacOs) to the GDBGUI on the remote (Ubuntu), for a more pleasant GDB experience.
 
 ## host:
 
@@ -18,7 +18,7 @@ vagrant init hashicorp/bionic64
 ``` bash
 vagrant up
 vagrant provision
-vagrant reload --provision
+# vagrant reload --provision
 vagrant ssh
 ```
 
